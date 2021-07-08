@@ -1,0 +1,38 @@
+name: terminal
+description: Themes
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+
+  #loading animation
+  flutter_spinkit: "^4.1.2"
+
+  #cart:was not applicable to our project
+  provider: ^4.0.4
+
+  #local storage
+  sqflite: ^2.0.0+3
+
+  web_socket_channel: ^1.2.0
+
+  http: ^0.12.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+    uses-material-design: true
+    assets:
+        - assets/
+
